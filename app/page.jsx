@@ -13,7 +13,7 @@ import project1Image from "./assets/images/project-1.png";
 import project2Image from "./assets/images/project-2.png";
 import project3Image from "./assets/images/project-3.jpeg";
 import project4Image from "./assets/images/project-4.png";
-import project5Image from "./assets/images/project-5.jpg";
+import project5Image from "./assets/images/project-5.png";
 import project6Image from "./assets/images/project-6.png";
 import project7Image from "./assets/images/project-7.jpg";
 
