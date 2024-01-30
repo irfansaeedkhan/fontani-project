@@ -237,21 +237,21 @@ export default function Home() {
       });
     } else if (project === "project5") {
       setUIState({
-        bgColor: "#d0d0d0e8",
-        textColor: "#3c3b38",
-        text: "Updated Text for Project 1",
-        imageUrl: project5Image.src,
-        websiteName: "Thread of time",
-        websiteYear: "2019",
-      });
-    } else if (project === "project6") {
-      setUIState({
         bgColor: "#e6e2ba",
         textColor: "#58531b",
         text: "Updated Text for Project 1",
         imageUrl: project6Image.src,
         websiteName: "3d printed carabiner",
         websiteYear: "2018",
+      });
+    } else if (project === "project6") {
+      setUIState({
+        bgColor: "#d0d0d0e8",
+        textColor: "#3c3b38",
+        text: "Updated Text for Project 1",
+        imageUrl: project5Image.src,
+        websiteName: "Thread of time",
+        websiteYear: "2019",
       });
     } else if (project === "project7") {
       setUIState({
