@@ -15,12 +15,12 @@ export default function Home() {
   const headerref = useRef(null);
   const [project, setProject] = useState("project1");
   const [uiState, setUIState] = useState({
-    bgColor: "#d0d0d0e8",
-    textColor: "#3c3b38",
+    bgColor: "#baaea8",
+    textColor: "#392a25",
     text: "Updated Text for Project 1",
-    imageUrl: "/images/project-1.jpg",
-    websiteName: "Dutch Design Week x In-zee",
-    websiteYear: "2023",
+    imageUrl: "/images/project-5.jpg",
+    websiteName: "Thread of time",
+    websiteYear: "2019",
   });
 
   function DateDisplay() {
@@ -257,12 +257,12 @@ export default function Home() {
     } else {
       // handle other projects or default state here
       setUIState({
-        bgColor: "#d0d0d0e8",
-        textColor: "#3c3b38",
+        bgColor: "#baaea8",
+        textColor: "#392a25",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-1.jpg",
-        websiteName: "Dutch Design Week x In-zee",
-        websiteYear: "2023",
+        imageUrl: "/images/project-5.jpg",
+        websiteName: "Thread of time",
+        websiteYear: "2019",
       });
     }
 
