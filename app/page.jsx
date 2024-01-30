@@ -18,7 +18,7 @@ export default function Home() {
     bgColor: "#baaea8",
     textColor: "#392a25",
     text: "Updated Text for Project 1",
-    imageUrl: "/images/project-1.jpg",
+    imageUrl: "/images/project-1.png",
     websiteName: "Dutch Design Week x In-zee",
     websiteYear: "2023",
   });
@@ -196,7 +196,7 @@ export default function Home() {
         bgColor: "#baaea8",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-1.jpg",
+        imageUrl: "/images/project-1.png",
         websiteName: "Dutch Design Week x In-zee",
         websiteYear: "2023",
       });
@@ -223,7 +223,7 @@ export default function Home() {
         bgColor: "#ababab",
         textColor: "#545454",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-4.jpg",
+        imageUrl: "/images/project-4.png",
         websiteName: "Innoca",
         websiteYear: "2020",
       });
@@ -260,7 +260,7 @@ export default function Home() {
         bgColor: "#baaea8",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-1.jpg",
+        imageUrl: "/images/project-1.png",
         websiteName: "Dutch Design Week x In-zee",
         websiteYear: "2023",
       });
@@ -307,7 +307,9 @@ export default function Home() {
           id="img-parent"
           className="w-full h-full bg-cover bg-center rounded-md"
           style={{
-            backgroundImage: `url(${uiState.imageUrl})`,
+            backgroundImage: `url(${
+              uiState.imageUrl || "/images/project-1.png"
+            })`,
           }}
         />
       </div>
