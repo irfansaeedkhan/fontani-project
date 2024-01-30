@@ -9,6 +9,14 @@ import { enUS } from "date-fns/locale";
 import AboutUs from "./components/about-us";
 import Image from "next/image";
 
+import project1Image from "./assets/images/project-1.png";
+import project2Image from "./assets/images/project-2.png";
+import project3Image from "./assets/images/project-3.jpeg";
+import project4Image from "./assets/images/project-4.png";
+import project5Image from "./assets/images/project-5.jpg";
+import project6Image from "./assets/images/project-6.png";
+import project7Image from "./assets/images/project-7.jpg";
+
 gsap.registerPlugin(DrawSVGPlugin);
 
 export default function Home() {
@@ -18,7 +26,7 @@ export default function Home() {
     bgColor: "#baaea8",
     textColor: "#392a25",
     text: "Updated Text for Project 1",
-    imageUrl: "/images/project-1.png",
+    imageUrl: project1Image.src,
     websiteName: "Dutch Design Week x In-zee",
     websiteYear: "2023",
   });
@@ -196,7 +204,7 @@ export default function Home() {
         bgColor: "#baaea8",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-1.png",
+        imageUrl: project1Image.src,
         websiteName: "Dutch Design Week x In-zee",
         websiteYear: "2023",
       });
@@ -205,7 +213,7 @@ export default function Home() {
         bgColor: "#ef9b80",
         textColor: "#735959",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-2.png",
+        imageUrl: project2Image.src,
         websiteName: "Bioluminescent City",
         websiteYear: "2022",
       });
@@ -214,7 +222,7 @@ export default function Home() {
         bgColor: "#000008",
         textColor: "#eeeeee",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-3.jpeg",
+        imageUrl: project3Image.src,
         websiteName: "Lobius Lamp",
         websiteYear: "2021",
       });
@@ -223,7 +231,7 @@ export default function Home() {
         bgColor: "#ababab",
         textColor: "#545454",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-4.png",
+        imageUrl: project4Image.src,
         websiteName: "Innoca",
         websiteYear: "2020",
       });
@@ -232,7 +240,7 @@ export default function Home() {
         bgColor: "#d0d0d0e8",
         textColor: "#3c3b38",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-5.jpg",
+        imageUrl: project5Image.src,
         websiteName: "Thread of time",
         websiteYear: "2019",
       });
@@ -241,7 +249,7 @@ export default function Home() {
         bgColor: "#e6e2ba",
         textColor: "#58531b",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-6.png",
+        imageUrl: project6Image.src,
         websiteName: "3d printed carabiner",
         websiteYear: "2018",
       });
@@ -250,7 +258,7 @@ export default function Home() {
         bgColor: "#e0deda",
         textColor: "#5c5c5c",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-7.jpg",
+        imageUrl: project7Image.src,
         websiteName: "Sail Of Time",
         websiteYear: "2017",
       });
@@ -260,7 +268,7 @@ export default function Home() {
         bgColor: "#baaea8",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-1.png",
+        imageUrl: project1Image.src,
         websiteName: "Dutch Design Week x In-zee",
         websiteYear: "2023",
       });
