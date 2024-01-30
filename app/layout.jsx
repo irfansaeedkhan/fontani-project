@@ -1,4 +1,5 @@
 import { Nunito } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const inter = Nunito({ subsets: ["latin"] });
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <script async src="/DrawSVGPlugin.min.js"></script>
+        <SpeedInsights />
       </body>
     </html>
   );
