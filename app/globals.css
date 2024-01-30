@@ -25,3 +25,68 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+#stripe{
+  /* stroke-dashoffset: 2696; */
+}
+
+@keyframes drawLine {
+  0% {
+    border-width: 0;
+    width: 0;
+  }
+  100% {
+    border-width: 1px;
+    width: 100%;
+  }
+}
+.animate-drawLine {
+  border-width: 0; 
+}
+.animate-drawLine {
+  animation: drawLine 1s ease-out 0.5s forwards;
+}
+
+/* custom scrollbar */
+.custom-scrollbar {
+  scrollbar-width: thin; 
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #1f1f1f; 
+  border-radius: 4px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #cbd5e0; 
+  border-radius: 4px;
+}
+
+.line-wrapper {
+  overflow: hidden;
+}
+
+.project-pin {
+  pointer-events: fill;
+}
+.project-pin:hover {
+  cursor: pointer;
+  opacity: 1 !important;
+}
+.project-pin:hover path {
+  cursor: pointer;
+  fill:#1f1f1f;
+}
+.project-pin:hover line {
+  stroke: #b7b7b7;
+}
+.opacity-pin{
+  opacity: 0.3 !important;
+}
+.pointer-events-fill{
+  pointer-events: fill;
+}
