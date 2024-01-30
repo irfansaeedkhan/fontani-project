@@ -328,7 +328,7 @@ export default function Home() {
           className="w-full h-full scale-[2.5] lg:scale-[2] absolute inset-0"
         />
       </div>
-      <div className="text-gray-300 font-bold text-lg lg:text-2xl absolute top-[75%] lg:top-[50%] left-[3%] lg:translate-y-[-50%] overflow-hidden h-[60px] flex justify-center items-center max-w-[50%]">
+      <div className="text-gray-300 font-bold text-lg lg:text-2xl absolute top-[75%] lg:top-[50%] left-[3%] lg:translate-y-[-50%] overflow-hidden h-[60px] flex justify-center items-center max-w-[50%] md:max-w-[22%]">
         <h2 className="revealing-text" style={{ color: uiState.textColor }}>
           {uiState.websiteName}
         </h2>
