@@ -193,12 +193,12 @@ export default function Home() {
 
     if (project === "project1") {
       setUIState({
-        bgColor: "#d0d0d0e8",
-        textColor: "#3c3b38",
+        bgColor: "#baaea8",
+        textColor: "#392a25",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-1.jpg",
-        websiteName: "Dutch Design Week x In-zee",
-        websiteYear: "2023",
+        imageUrl: "/images/project-5.jpg",
+        websiteName: "Thread of time",
+        websiteYear: "2019",
       });
     } else if (project === "project2") {
       setUIState({
@@ -229,12 +229,12 @@ export default function Home() {
       });
     } else if (project === "project5") {
       setUIState({
-        bgColor: "#baaea8",
-        textColor: "#392a25",
+        bgColor: "#d0d0d0e8",
+        textColor: "#3c3b38",
         text: "Updated Text for Project 1",
-        imageUrl: "/images/project-5.jpg",
-        websiteName: "Thread of time",
-        websiteYear: "2019",
+        imageUrl: "/images/project-1.jpg",
+        websiteName: "Dutch Design Week x In-zee",
+        websiteYear: "2023",
       });
     } else if (project === "project6") {
       setUIState({
