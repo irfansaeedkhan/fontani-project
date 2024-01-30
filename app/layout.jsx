@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <script async src="/public/DrawSVGPlugin.min.js"></script>
+        <script async src="/DrawSVGPlugin.min.js"></script>
       </body>
     </html>
   );
