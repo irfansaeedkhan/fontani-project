@@ -103,16 +103,37 @@ const AboutUs = ({ textColor }) => {
             <h5 className="text-base lg:text-lg font-semibold uppercase text-gray-400 fade-up">
               ABOUT ME
             </h5>
-            <p className="text-sm md:text-base w-full lg:w-[60%] text-gray-200 fade-up">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
-              Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris
-              massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti
-              sociosqu ad litora torquent per conubia nostra, per inceptos
-              himenaeos. Curabitur sodales ligula in libero. Sed dignissim
-              lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam.
-            </p>
+            <div className="flex flex-col gap-10 text-sm md:text-base w-full lg:w-[60%] text-gray-200 fade-up">
+              <p>
+                I am a multidisciplinary creative driven by a passion for
+                innovation, craftsmanship, and entrepreneurship. My diverse
+                international experiences have cultivated a global perspective
+                and ignited my desire to make a meaningful difference. As an
+                intrepid risk-taker, I embrace challenges as opportunities to
+                push the boundaries of design and business.
+              </p>
+              <p>
+                I am committed to employing my skills and expertise to shape a
+                better world, one project at a time. I believe that design has
+                the power to transcend its physical form, shaping not just
+                products but also the interactions between people and their
+                world.
+              </p>
+              <p>
+                My approach is not confined to the constraints of traditional
+                design disciplines; rather, I embrace the freedom to explore
+                unconventional avenues, drawing inspiration from diverse fields
+                and perspectives. I embrace change, constantly seeking
+                opportunities to challenge the present and reimagine the way we
+                interact with the world around us.
+              </p>
+              <p>
+                I am committed to using my skills and talents to bridge the gap
+                between design and business, creating solutions that are not
+                only aesthetically pleasing and functional but also socially
+                responsible and sustainable.
+              </p>
+            </div>
           </div>
           <div
             className={`my-5 ${
@@ -120,11 +141,11 @@ const AboutUs = ({ textColor }) => {
             }`}
           ></div>
           <Image
-            src="/images/project-7.jpg"
+            src="/images/alex.png"
             width={500}
             height={500}
             alt="Picture of the Alex Fotani"
-            className="rounded-lg mx-auto"
+            className="rounded-xl mx-auto"
           />
           <div
             className={`my-5 ${
@@ -137,26 +158,26 @@ const AboutUs = ({ textColor }) => {
             </h5>
 
             <ul className="flex flex-col gap-3 w-full text-center text-sm md:text-base lg:text-lg">
-              <li className=" py-1 fade-up">
-                <a href="#project1">01 Project1</a>
+              <li className="py-1 fade-up">
+                <a href="/sail-of-time">Sail Of Time</a>
               </li>
-              <li className=" py-1 fade-up">
-                <a href="#project1">02 Project2</a>
+              <li className="py-1 fade-up">
+                <a href="/lobius-lamp">Lobius Lamp</a>
               </li>
-              <li className=" py-1 fade-up">
-                <a href="#project1">03 Project3</a>
+              <li className="py-1 fade-up">
+                <a href="/biolumiinscent">Biolumiinscent</a>
               </li>
-              <li className=" py-1 fade-up">
-                <a href="#project1">04 Project4</a>
+              <li className="py-1 fade-up">
+                <a href="/dutch-design-week">Dutch Design Week</a>
               </li>
-              <li className=" py-1 fade-up">
-                <a href="#project1">05 Project5</a>
+              <li className="py-1 fade-up">
+                <a href="/innoca">Innoca</a>
               </li>
-              <li className=" py-1 fade-up">
-                <a href="#project1">06 Project6</a>
+              <li className="py-1 fade-up">
+                <a href="/carbon-circularity">Carbon Circularity</a>
               </li>
-              <li className=" py-1 fade-up">
-                <a href="#project1">07 Project7</a>
+              <li className="py-1 fade-up">
+                <a href="/printed-3d-carabiner">3d Printed Carabiner</a>
               </li>
             </ul>
           </div>

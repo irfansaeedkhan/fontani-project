@@ -58,7 +58,7 @@ export default function Template({ children }) {
   }, [containerRef, svgRef]);
 
   return (
-    <div className="relative w-full h-full bg-[#cd5c86]">
+    <div className="relative w-full h-full bg-[#cd5c86]. bg-white">
       <div
         ref={containerRef}
         className="fixed inset-0 bg-black z-[9999] flex items-center justify-center"
