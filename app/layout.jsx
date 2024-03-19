@@ -1,8 +1,7 @@
-import { Nunito } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Nunito({ subsets: ["latin"] });
+const myFont = localFont({ src: "../public/avenir.otf" });
 
 export const metadata = {
   title: "Fontani Studio",
@@ -12,10 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
+      <body className={myFont.className}>
+        <main>{children}</main>
         <script async src="/DrawSVGPlugin.min.js"></script>
-        <SpeedInsights />
       </body>
     </html>
   );

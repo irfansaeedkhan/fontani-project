@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -18,15 +17,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #cd5c86;
+  /* background: rgb(43, 41, 41); */
 }
 
-#stripe{
+#stripe {
   /* stroke-dashoffset: 2696; */
 }
 
@@ -41,7 +36,7 @@ body {
   }
 }
 .animate-drawLine {
-  border-width: 0; 
+  border-width: 0;
 }
 .animate-drawLine {
   animation: drawLine 1s ease-out 0.5s forwards;
@@ -49,7 +44,7 @@ body {
 
 /* custom scrollbar */
 .custom-scrollbar {
-  scrollbar-width: thin; 
+  scrollbar-width: thin;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -57,12 +52,12 @@ body {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #1f1f1f; 
-  border-radius: 4px; 
+  background-color: #1f1f1f;
+  border-radius: 4px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background-color: #cbd5e0; 
+  background-color: #cbd5e0;
   border-radius: 4px;
 }
 
@@ -79,14 +74,34 @@ body {
 }
 .project-pin:hover path {
   cursor: pointer;
-  fill:#1f1f1f;
+  fill: #1f1f1f;
 }
 .project-pin:hover line {
   stroke: #b7b7b7;
 }
-.opacity-pin{
+.opacity-pin {
   opacity: 0.3 !important;
 }
-.pointer-events-fill{
+.pointer-events-fill {
   pointer-events: fill;
 }
+
+/* font sizes */
+.text-h1 {
+  @apply text-5xl lg:text-6xl font-medium;
+}
+.text-h2 {
+  @apply text-base lg:text-lg leading-6 font-semibold italic;
+}
+.text-h3 {
+  @apply text-4xl font-medium italic;
+}
+.text-p {
+  @apply text-sm lg:text-base leading-5 font-medium;
+}
+.max-width-desktop {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@tailwind utilities;

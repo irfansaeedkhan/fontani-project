@@ -1,4 +1,5 @@
 import * as React from "react";
+import Link from "next/link";
 
 const Clock = (props) => (
   <svg
@@ -27,22 +28,24 @@ const Clock = (props) => (
 
           <g id="pins-container">
             <g className="pointer-events-fill">
-              <g className="pin-parent">
-                {" "}
-                <g className="project-pin" id="p1">
-                  <path
-                    className="cls-3"
-                    d="M1288.61,909.1a9.5,9.5,0,0,1-9.5-9.5V836.54a9.5,9.5,0,1,1,19,0V899.6A9.5,9.5,0,0,1,1288.61,909.1Z"
-                  />
-                  <line
-                    className="cls-2"
-                    x1={1288.58}
-                    y1={899.6}
-                    x2={1288.58}
-                    y2={836.54}
-                  />
+              <Link href="dutch-design-week">
+                <g className="pin-parent">
+                  {" "}
+                  <g className="project-pin" id="p1">
+                    <path
+                      className="cls-3"
+                      d="M1288.61,909.1a9.5,9.5,0,0,1-9.5-9.5V836.54a9.5,9.5,0,1,1,19,0V899.6A9.5,9.5,0,0,1,1288.61,909.1Z"
+                    />
+                    <line
+                      className="cls-2"
+                      x1={1288.58}
+                      y1={899.6}
+                      x2={1288.58}
+                      y2={836.54}
+                    />
+                  </g>
                 </g>
-              </g>
+              </Link>
 
               <line
                 className="cls-4"
@@ -179,22 +182,24 @@ const Clock = (props) => (
               />
             </g>
             <g className="pointer-events-fill">
-              <g className="pin-parent">
-                {" "}
-                <g className="project-pin" id="p2">
-                  <path
-                    className="cls-3"
-                    d="M1584,1051.45a9.5,9.5,0,0,1,1.5-13.35l49.31-39.3a9.5,9.5,0,0,1,11.85,14.86l-49.31,39.3A9.5,9.5,0,0,1,1584,1051.45Z"
-                  />
-                  <line
-                    className="cls-2"
-                    x1={1591.45}
-                    y1={1045.5}
-                    x2={1640.76}
-                    y2={1006.2}
-                  />
+              <Link href="biolumiinscent">
+                <g className="pin-parent">
+                  {" "}
+                  <g className="project-pin" id="p2">
+                    <path
+                      className="cls-3"
+                      d="M1584,1051.45a9.5,9.5,0,0,1,1.5-13.35l49.31-39.3a9.5,9.5,0,0,1,11.85,14.86l-49.31,39.3A9.5,9.5,0,0,1,1584,1051.45Z"
+                    />
+                    <line
+                      className="cls-2"
+                      x1={1591.45}
+                      y1={1045.5}
+                      x2={1640.76}
+                      y2={1006.2}
+                    />
+                  </g>
                 </g>
-              </g>
+              </Link>
 
               <line
                 className="cls-4"
@@ -331,22 +336,24 @@ const Clock = (props) => (
               />
             </g>
             <g className="pointer-events-fill">
-              <g className="pin-parent">
-                {" "}
-                <g className="project-pin" id="p3">
-                  <path
-                    className="cls-3"
-                    d="M1656.85,1371.2a9.49,9.49,0,0,1,11.38-7.14l61.46,14.06a9.5,9.5,0,0,1-4.24,18.53L1664,1382.58A9.5,9.5,0,0,1,1656.85,1371.2Z"
-                  />
-                  <line
-                    className="cls-2"
-                    x1={1666.11}
-                    y1={1373.29}
-                    x2={1727.58}
-                    y2={1387.36}
-                  />
+              <Link href="lobius-lamp">
+                <g className="pin-parent">
+                  {" "}
+                  <g className="project-pin" id="p3">
+                    <path
+                      className="cls-3"
+                      d="M1656.85,1371.2a9.49,9.49,0,0,1,11.38-7.14l61.46,14.06a9.5,9.5,0,0,1-4.24,18.53L1664,1382.58A9.5,9.5,0,0,1,1656.85,1371.2Z"
+                    />
+                    <line
+                      className="cls-2"
+                      x1={1666.11}
+                      y1={1373.29}
+                      x2={1727.58}
+                      y2={1387.36}
+                    />
+                  </g>
                 </g>
-              </g>
+              </Link>
 
               <line
                 className="cls-4"
@@ -483,22 +490,23 @@ const Clock = (props) => (
               />
             </g>
             <g className="pointer-events-fill">
-              <g className="pin-parent">
-                {" "}
-                <g className="project-pin" id="p4">
-                  <path
-                    className="cls-3"
-                    d="M1452.18,1627.43a9.5,9.5,0,0,1,12.68,4.44l27.31,56.84a9.5,9.5,0,1,1-17.13,8.23l-27.31-56.84A9.49,9.49,0,0,1,1452.18,1627.43Z"
-                  />
-                  <line
-                    className="cls-2"
-                    x1={1456.32}
-                    y1={1635.98}
-                    x2={1483.63}
-                    y2={1692.81}
-                  />
+              <Link href="innoca">
+                <g className="pin-parent">
+                  <g className="project-pin" id="p4">
+                    <path
+                      className="cls-3"
+                      d="M1452.18,1627.43a9.5,9.5,0,0,1,12.68,4.44l27.31,56.84a9.5,9.5,0,1,1-17.13,8.23l-27.31-56.84A9.49,9.49,0,0,1,1452.18,1627.43Z"
+                    />
+                    <line
+                      className="cls-2"
+                      x1={1456.32}
+                      y1={1635.98}
+                      x2={1483.63}
+                      y2={1692.81}
+                    />
+                  </g>
                 </g>
-              </g>
+              </Link>
 
               <line
                 className="cls-4"
@@ -635,21 +643,23 @@ const Clock = (props) => (
               />
             </g>
             <g className="pointer-events-fill">
-              <g className="pin-parent">
-                <g className="project-pin" id="p5">
-                  <path
-                    className="cls-3"
-                    d="M1124.9,1627.39a9.49,9.49,0,0,1,4.44,12.67L1102,1696.9a9.5,9.5,0,0,1-17.13-8.23l27.32-56.84A9.49,9.49,0,0,1,1124.9,1627.39Z"
-                  />
-                  <line
-                    className="cls-2"
-                    x1={1120.81}
-                    y1={1635.96}
-                    x2={1093.49}
-                    y2={1692.79}
-                  />
+              <Link href="printed-3d-carabiner">
+                <g className="pin-parent">
+                  <g className="project-pin" id="p5">
+                    <path
+                      className="cls-3"
+                      d="M1124.9,1627.39a9.49,9.49,0,0,1,4.44,12.67L1102,1696.9a9.5,9.5,0,0,1-17.13-8.23l27.32-56.84A9.49,9.49,0,0,1,1124.9,1627.39Z"
+                    />
+                    <line
+                      className="cls-2"
+                      x1={1120.81}
+                      y1={1635.96}
+                      x2={1093.49}
+                      y2={1692.79}
+                    />
+                  </g>
                 </g>
-              </g>
+              </Link>
 
               <line
                 className="cls-4"
@@ -786,22 +796,23 @@ const Clock = (props) => (
               />
             </g>
             <g className="pointer-events-fill">
-              <g className="pin-parent">
-                {" "}
-                <g className="project-pin" id="p6">
-                  <path
-                    className="cls-3"
-                    d="M920.37,1371.2a9.5,9.5,0,0,0-11.38-7.14l-61.47,14.06a9.5,9.5,0,0,0,4.24,18.53l61.47-14.07A9.51,9.51,0,0,0,920.37,1371.2Z"
-                  />
-                  <line
-                    className="cls-2"
-                    x1={911.1}
-                    y1={1373.29}
-                    x2={849.64}
-                    y2={1387.36}
-                  />
+              <Link href="carboncircularity">
+                <g className="pin-parent">
+                  <g className="project-pin" id="p6">
+                    <path
+                      className="cls-3"
+                      d="M920.37,1371.2a9.5,9.5,0,0,0-11.38-7.14l-61.47,14.06a9.5,9.5,0,0,0,4.24,18.53l61.47-14.07A9.51,9.51,0,0,0,920.37,1371.2Z"
+                    />
+                    <line
+                      className="cls-2"
+                      x1={911.1}
+                      y1={1373.29}
+                      x2={849.64}
+                      y2={1387.36}
+                    />
+                  </g>
                 </g>
-              </g>
+              </Link>
 
               <line
                 className="cls-4"
@@ -938,22 +949,24 @@ const Clock = (props) => (
               />
             </g>
             <g className="pointer-events-fill">
-              <g className="pin-parent">
-                {" "}
-                <g className="project-pin" id="p7">
-                  <path
-                    className="cls-3"
-                    d="M993.18,1051.45a9.49,9.49,0,0,0-1.51-13.35l-49.31-39.3a9.5,9.5,0,1,0-11.84,14.86l49.31,39.3A9.5,9.5,0,0,0,993.18,1051.45Z"
-                  />
-                  <line
-                    className="cls-2"
-                    x1={985.77}
-                    y1={1045.5}
-                    x2={936.46}
-                    y2={1006.2}
-                  />
+              <Link href="sail-of-time">
+                <g className="pin-parent">
+                  {" "}
+                  <g className="project-pin" id="p7">
+                    <path
+                      className="cls-3"
+                      d="M993.18,1051.45a9.49,9.49,0,0,0-1.51-13.35l-49.31-39.3a9.5,9.5,0,1,0-11.84,14.86l49.31,39.3A9.5,9.5,0,0,0,993.18,1051.45Z"
+                    />
+                    <line
+                      className="cls-2"
+                      x1={985.77}
+                      y1={1045.5}
+                      x2={936.46}
+                      y2={1006.2}
+                    />
+                  </g>
                 </g>
-              </g>
+              </Link>
 
               <line
                 className="cls-4"

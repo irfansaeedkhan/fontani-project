@@ -250,7 +250,7 @@ export default function Home() {
         textColor: "#3c3b38",
         text: "Updated Text for Project 1",
         imageUrl: project5Image.src,
-        websiteName: "Thread of time",
+        websiteName: "Carbon Circularity",
         websiteYear: "2019",
       });
     } else if (project === "project7") {
@@ -299,13 +299,13 @@ export default function Home() {
       style={{ backgroundColor: uiState.bgColor }}
     >
       <nav className="absolute top-0 right-0 w-full z-40 px-4 py-4 lg:py-6">
-        <a href="/" rel="noopener noreferrer">
+        <a href="/" rel="noopener noreferrer" className="block w-28 lg:w-36">
           <Image
             src="/images/logo.png"
             alt="fontani logo"
             width={100}
             height={100}
-            className="w-28  lg:w-36"
+            className="w-full h-full"
           />
         </a>
       </nav>
