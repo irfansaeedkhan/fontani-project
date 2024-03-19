@@ -52,7 +52,7 @@ const PrintedCarabiner = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full lg:w-[55%] flex  items-center justify-center">
+            <div className="w-full lg:w-[55%] flex items-center justify-center">
               <Image
                 src="/images/p7-img-1.png"
                 width={500}

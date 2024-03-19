@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.0",
     "@pixi/filter-displacement": "^7.3.3",
     "@vercel/speed-insights": "^1.0.9",
     "date-fns": "^3.3.0",
     "framer-motion": "^11.0.8",
     "gsap": "^3.12.4",
+    "locomotive-scroll": "^5.0.0-beta.11",
     "next": "14.0.4",
     "pixi.js": "^7.3.3",
     "react": "^18",
