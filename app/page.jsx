@@ -145,6 +145,7 @@ export default function Home() {
       { drawSVG: "100% 100%", duration: 0.3, ease: "slow" },
       "-=0.3"
     );
+    tl.timeScale(2);
 
     const pinsContainer = clockElement.querySelector("#pins-container");
     const pins = pinsContainer.querySelectorAll(".project-pin");
