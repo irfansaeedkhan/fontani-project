@@ -122,3 +122,24 @@ html.lenis {
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
 }
+
+/* video player */
+/* .full-width-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}*/
+
+.sailvideo video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.mobius video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

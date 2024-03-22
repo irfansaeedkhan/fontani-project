@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import VideoPLayer from "../../components/video-player";
 
 const LobiusLamp = () => {
   return (
@@ -81,6 +82,19 @@ const LobiusLamp = () => {
             alt="process images"
             className="w-full h-full object-contain max-w-[90%] lg:max-w-[70%] mx-auto"
           />
+        </div>
+        {/* video section */}
+        <div className="bg-black py-20 flex justify-center items-center gap-10 lg:gap-16 lg:min-h-[80vh] pb-10">
+          <div className="w-1/2 bg-black">
+            <div className="p-5">
+              <VideoPLayer videoSrc="/videos/lobiuslamp-1.mp4" />
+            </div>
+          </div>
+          <div className="w-1/2 bg-black">
+            <div className="p-5">
+              <VideoPLayer videoSrc="/videos/mobiusvideo.mp4" />
+            </div>
+          </div>
         </div>
         {/* section3 */}
         <div className="flex flex-col lg:justify-center items-center gap-16 lg:min-h-[80vh] pt-20 pb-20 bg-black">

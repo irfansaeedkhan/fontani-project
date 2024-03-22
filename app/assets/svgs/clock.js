@@ -28,7 +28,7 @@ const Clock = (props) => (
 
           <g id="pins-container">
             <g className="pointer-events-fill">
-              <Link href="dutch-design-week">
+              <Link href="carbon-circularity">
                 <g className="pin-parent">
                   {" "}
                   <g className="project-pin" id="p1">
@@ -796,7 +796,7 @@ const Clock = (props) => (
               />
             </g>
             <g className="pointer-events-fill">
-              <Link href="carboncircularity">
+              <Link href="dutch-design-week">
                 <g className="pin-parent">
                   <g className="project-pin" id="p6">
                     <path

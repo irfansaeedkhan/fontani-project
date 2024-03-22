@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+import VideoPLayer from "../../components/video-player";
+
 const sailOfTime = () => {
   return (
     <div className="bg-white w-full min-h-screen text-[#020202] relative">
@@ -93,6 +95,12 @@ const sailOfTime = () => {
               dreams are shaped by persistence and vision. It&apos;s a testament
               to creativity and the endless possibilities that lie ahead.
             </p>
+          </div>
+        </div>
+        {/* video section */}
+        <div className="bg-black lg:px-10">
+          <div className="sailvideo w-full lg:w-1/3 mx-auto max-h-screen overflow-hidden">
+            <VideoPLayer videoSrc="/videos/sailvideo.mp4" />
           </div>
         </div>
         {/* section3 */}

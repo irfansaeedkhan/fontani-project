@@ -9,13 +9,13 @@ import { enUS } from "date-fns/locale";
 import AboutUs from "./components/about-us";
 import Image from "next/image";
 
-import project1Image from "./assets/images/project-1.png";
-import project2Image from "./assets/images/project-2.png";
-import project3Image from "./assets/images/project-3.jpeg";
-import project4Image from "./assets/images/project-4.png";
-import project5Image from "./assets/images/project-5.png";
-import project6Image from "./assets/images/project-6.png";
-import project7Image from "./assets/images/project-7.jpg";
+import project1Image from "../public/images/project-1.png";
+import project2Image from "../public/images/project-2.png";
+import project3Image from "../public/images/project-3.jpeg";
+import project4Image from "../public/images/project-4.png";
+import project5Image from "../public/images/project-5.png";
+import project6Image from "../public/images/project-6.png";
+import project7Image from "../public/images/project-7.jpg";
 
 gsap.registerPlugin(DrawSVGPlugin);
 
@@ -27,7 +27,7 @@ export default function Home() {
     textColor: "#392a25",
     text: "Updated Text for Project 1",
     imageUrl: project1Image.src,
-    websiteName: "Dutch Design Week x In-zee",
+    websiteName: "Carbon Circularity",
     websiteYear: "2023",
   });
 
@@ -205,7 +205,7 @@ export default function Home() {
         textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project1Image.src,
-        websiteName: "Dutch Design Week x In-zee",
+        websiteName: "Carbon Circularity",
         websiteYear: "2023",
       });
     } else if (project === "project2") {
@@ -250,7 +250,7 @@ export default function Home() {
         textColor: "#3c3b38",
         text: "Updated Text for Project 1",
         imageUrl: project5Image.src,
-        websiteName: "Carbon Circularity",
+        websiteName: "Dutch Design Week x In-zee",
         websiteYear: "2019",
       });
     } else if (project === "project7") {
@@ -269,7 +269,7 @@ export default function Home() {
         textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project1Image.src,
-        websiteName: "Dutch Design Week x In-zee",
+        websiteName: "Carbon Circularity",
         websiteYear: "2023",
       });
     }
@@ -335,7 +335,7 @@ export default function Home() {
       </div>
       <div className="text-gray-300 font-bold text-lg lg:text-2xl absolute top-[75%] lg:top-[50%] right-[3%] lg:translate-y-[-50%] overflow-hidden h-[60px] flex justify-center items-center">
         <h2 className="revealing-text" style={{ color: uiState.textColor }}>
-          {uiState.websiteYear}
+          {/* {uiState.websiteYear} */}
         </h2>
       </div>
 

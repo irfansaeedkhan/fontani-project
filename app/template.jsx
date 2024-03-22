@@ -28,18 +28,18 @@ export default function Template({ children }) {
       .fromTo(
         containerChildRef.current,
         { opacity: 1 },
-        { duration: 1, opacity: 0 }
+        { duration: 0.5, opacity: 0 }
       )
       .fromTo(
         containerRef.current,
         { immediateRender: true, y: "-100%" },
-        { y: 0, duration: 1, ease: "power3.inOut" },
+        { y: 0, duration: 0.5, ease: "power3.inOut" },
         "-=0.5"
       )
       .fromTo(
         svgRef.current?.querySelectorAll("path"),
         { opacity: "0", y: 50 },
-        { duration: 0.5, stagger: 0.1, opacity: 1, y: 0 }
+        { duration: 0.3, stagger: 0.1, opacity: 1, y: 0 }
       )
       .to(containerRef.current, {
         y: "100%",
@@ -50,7 +50,7 @@ export default function Template({ children }) {
       .fromTo(
         containerChildRef.current,
         { opacity: 0 },
-        { duration: 1, opacity: 1 },
+        { duration: 0.5, opacity: 1 },
         "-=0.5"
       );
 
@@ -64,6 +64,7 @@ export default function Template({ children }) {
         className="fixed inset-0 bg-black z-[9999] flex items-center justify-center"
       >
         <div ref={svgRef}>
+          {/* test */}
           <LogoSvg />
         </div>
       </div>
