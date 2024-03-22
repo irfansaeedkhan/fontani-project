@@ -347,7 +347,7 @@ export default function Home() {
         </a>
       </nav>
       <AboutUs textColor={uiState?.textColor} />
-      <div className="aspect-[5/3] w-[90vw] lg:w-[100vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden">
+      <div className="aspect-[16/9] w-[90vw] lg:w-[90vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden">
         <div
           id="img-parent"
           className="w-full h-full bg-contain bg-no-repeat bg-center rounded-md"
