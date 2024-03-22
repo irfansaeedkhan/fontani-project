@@ -207,7 +207,7 @@ export default function Home() {
 
     if (project === "project1") {
       setUIState({
-        bgColor: "#baaea8",
+        bgColor: "#dad5cf",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project1Image.src,
@@ -237,8 +237,8 @@ export default function Home() {
       });
     } else if (project === "project4") {
       setUIState({
-        bgColor: "#ababab",
-        textColor: "#545454",
+        bgColor: "#ffffff",
+        textColor: "#ababab",
         text: "Updated Text for Project 1",
         imageUrl: project4Image.src,
         websiteName: "Innoca",
@@ -247,7 +247,7 @@ export default function Home() {
       });
     } else if (project === "project5") {
       setUIState({
-        bgColor: "#e6e2ba",
+        bgColor: "#e9e8ed",
         textColor: "#58531b",
         text: "Updated Text for Project 1",
         imageUrl: project6Image.src,
@@ -257,7 +257,7 @@ export default function Home() {
       });
     } else if (project === "project6") {
       setUIState({
-        bgColor: "#d0d0d0e8",
+        bgColor: "#f8f7f7",
         textColor: "#3c3b38",
         text: "Updated Text for Project 1",
         imageUrl: project5Image.src,
@@ -267,7 +267,7 @@ export default function Home() {
       });
     } else if (project === "project7") {
       setUIState({
-        bgColor: "#e0deda",
+        bgColor: "#bbbbbb",
         textColor: "#5c5c5c",
         text: "Updated Text for Project 1",
         imageUrl: project7Image.src,
@@ -350,7 +350,7 @@ export default function Home() {
       <div className="aspect-[5/3] w-[90vw] lg:w-[100vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden">
         <div
           id="img-parent"
-          className="w-full h-full bg-cover bg-center rounded-md"
+          className="w-full h-full bg-contain bg-no-repeat bg-center rounded-md"
           style={{
             backgroundImage: `url(${
               uiState.imageUrl || "/images/project-1.png"
