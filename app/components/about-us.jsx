@@ -196,18 +196,32 @@ const AboutUs = ({ textColor }) => {
                 <div className="flex flex-col gap-3">
                   <div className="flex flex-col">
                     <h5 className="text-gray-500">Say Hello</h5>
-                    <h6 className="text-gray-200">Hi@fontani.studio</h6>
+                    <h6 className="text-gray-200">
+                      <a href="mailto:Fontani.design21@gmail.com">
+                        Fontani.design21@gmail.com
+                      </a>
+                    </h6>
                   </div>
-                  <div className="flex flex-col">
+                  {/* <div className="flex flex-col">
                     <h5 className="text-gray-500">Projects</h5>
                     <h6 className="text-gray-200">Biz@fontani.studio</h6>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="flex flex-col gap-2 text-gray-200 hover:text-white">
-                  <a href="#">Linkedin</a>
-                  <a href="#">Instagram</a>
-                  <a href="#">Twitter</a>
-                  <a href="#">Dribbble</a>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/alexandre-fontani-/"
+                  >
+                    Linkedin
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/alexandrefontani/?hl=fr"
+                  >
+                    Instagram
+                  </a>
+                  {/* <a href="#">Twitter</a>
+                  <a href="#">Dribbble</a> */}
                 </div>
               </div>
             </div>
