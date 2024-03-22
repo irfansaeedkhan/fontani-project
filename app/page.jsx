@@ -289,9 +289,32 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    console.log(project);
     updateUI(project);
   }, [project]);
+
+  const projectImages = [
+    project1Image,
+    project2Image,
+    project3Image,
+    project4Image,
+    project5Image,
+    project6Image,
+    project7Image,
+  ];
+
+  useEffect(() => {
+    projectImages.forEach((image) => {
+      let src = image.src;
+
+      <Image
+        src={src}
+        width={500}
+        height={500}
+        alt="test"
+        className="w-full"
+      />;
+    });
+  }, []);
 
   return (
     <main

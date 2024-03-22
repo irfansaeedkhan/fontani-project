@@ -145,7 +145,7 @@ const AboutUs = ({ textColor }) => {
             width={500}
             height={500}
             alt="Picture of the Alex Fotani"
-            className="rounded-xl mx-auto"
+            className="w-full h-auto max-w-[50%] rounded-xl mx-auto"
           />
           <div
             className={`my-5 ${
