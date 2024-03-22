@@ -12,13 +12,13 @@ import Clock from "./assets/svgs/clock";
 import { DrawSVGPlugin } from "../public/DrawSVGPlugin.min";
 import AboutUs from "./components/about-us";
 
-import project1Image from "../public/images/project-1.png";
-import project2Image from "../public/images/project-2.png";
-import project3Image from "../public/images/project-3.jpeg";
-import project4Image from "../public/images/project-4.png";
-import project5Image from "../public/images/project-5.png";
-import project6Image from "../public/images/project-6.png";
-import project7Image from "../public/images/project-7.jpg";
+import project1Image from "../public/images/p-1.png";
+import project2Image from "../public/images/p-2.png";
+import project3Image from "../public/images/p-3.png";
+import project4Image from "../public/images/p-4.png";
+import project5Image from "../public/images/p-5.png";
+import project6Image from "../public/images/p-6.png";
+import project7Image from "../public/images/p-7.png";
 
 gsap.registerPlugin(DrawSVGPlugin);
 
@@ -207,7 +207,7 @@ export default function Home() {
 
     if (project === "project1") {
       setUIState({
-        bgColor: "#dad5cf",
+        bgColor: "#ffffff",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project1Image.src,
@@ -217,7 +217,7 @@ export default function Home() {
       });
     } else if (project === "project2") {
       setUIState({
-        bgColor: "#ef9b80",
+        bgColor: "#000000",
         textColor: "#ffffff",
         text: "Updated Text for Project 1",
         imageUrl: project2Image.src,
@@ -247,7 +247,7 @@ export default function Home() {
       });
     } else if (project === "project5") {
       setUIState({
-        bgColor: "#e9e8ed",
+        bgColor: "#ffffff",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project6Image.src,
@@ -257,7 +257,7 @@ export default function Home() {
       });
     } else if (project === "project6") {
       setUIState({
-        bgColor: "#f8f7f7",
+        bgColor: "#ffffff",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project5Image.src,
@@ -267,7 +267,7 @@ export default function Home() {
       });
     } else if (project === "project7") {
       setUIState({
-        bgColor: "#bbbbbb",
+        bgColor: "#ffffff",
         textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project7Image.src,
@@ -347,14 +347,12 @@ export default function Home() {
         </a>
       </nav>
       <AboutUs textColor={uiState?.textColor} />
-      <div className="aspect-[16/9] w-[90vw] lg:w-[90vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden">
+      <div className="aspect-[16/9] w-[90vw] lg:w-[86vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden">
         <div
           id="img-parent"
           className="w-full h-full bg-contain bg-no-repeat bg-center rounded-md"
           style={{
-            backgroundImage: `url(${
-              uiState.imageUrl || "/images/project-1.png"
-            })`,
+            backgroundImage: `url(${uiState.imageUrl || "/images/p-1.png"})`,
           }}
         />
       </div>
