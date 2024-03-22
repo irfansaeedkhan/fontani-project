@@ -5,14 +5,14 @@ import Image from "next/image";
 const Innoca = () => {
   return (
     <div className="bg-white w-full min-h-screen text-[#020202] relative">
-      <div className="absolute top-0 right-0 crossBtn p-5">
+      <div className="absolute top-0 left-5 lg:top-2 lg:right-20 crossBtn p-5">
         <Link
           href="/"
           className="text-gray-400 bg-transparent rounded-lg text-sm md:text-base p-1.5 absolute top-2.5 end-2.5 inline-flex items-center hover:bg-gray-600 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
         >
           <svg
             aria-hidden="true"
-            className="w-8 h-8"
+            className="w-5 h-5 lg:w-8 lg:h-8"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"

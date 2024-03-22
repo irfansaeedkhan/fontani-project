@@ -60,7 +60,7 @@ const AboutUs = ({ textColor }) => {
           aria-controls="drawer-navigation"
           onClick={toggleDrawer}
         >
-          About Me
+          Menu
         </button>
       </header>
       <div
@@ -101,7 +101,7 @@ const AboutUs = ({ textColor }) => {
           ></div>
           <div className="flex flex-col lg:flex-row justify-between items-start p-2">
             <h5 className="text-base lg:text-lg font-semibold uppercase text-gray-400 fade-up">
-              ABOUT ME
+              Menu
             </h5>
             <div className="flex flex-col gap-10 text-sm md:text-base w-full lg:w-[60%] text-gray-200 fade-up">
               <p>
@@ -145,7 +145,7 @@ const AboutUs = ({ textColor }) => {
             width={500}
             height={500}
             alt="Picture of the Alex Fotani"
-            className="w-full h-auto max-w-[50%] rounded-xl mx-auto"
+            className="w-full h-auto max-w-[50%] lg:max-w-[25%] rounded-xl mx-auto"
           />
           <div
             className={`my-5 ${
@@ -157,26 +157,26 @@ const AboutUs = ({ textColor }) => {
               PROJECTS
             </h5>
 
-            <ul className="flex flex-col gap-3 w-full text-center text-sm md:text-base lg:text-lg">
-              <li className="py-1 fade-up">
+            <ul className="flex flex-col gap-3 w-full text-center text-sm md:text-base lg:text-lg text-white">
+              <li className="py-1 fade-up text-white">
                 <a href="/sail-of-time">Sail Of Time</a>
               </li>
-              <li className="py-1 fade-up">
+              <li className="py-1 fade-up text-white">
                 <a href="/lobius-lamp">Lobius Lamp</a>
               </li>
-              <li className="py-1 fade-up">
+              <li className="py-1 fade-up text-white">
                 <a href="/biolumiinscent">Biolumiinscent</a>
               </li>
-              <li className="py-1 fade-up">
+              <li className="py-1 fade-up text-white">
                 <a href="/dutch-design-week">Dutch Design Week</a>
               </li>
-              <li className="py-1 fade-up">
+              <li className="py-1 fade-up text-white">
                 <a href="/innoca">Innoca</a>
               </li>
-              <li className="py-1 fade-up">
+              <li className="py-1 fade-up text-white">
                 <a href="/carbon-circularity">Carbon Circularity</a>
               </li>
-              <li className="py-1 fade-up">
+              <li className="py-1 fade-up text-white">
                 <a href="/printed-3d-carabiner">3d Printed Carabiner</a>
               </li>
             </ul>

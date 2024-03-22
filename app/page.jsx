@@ -1,13 +1,16 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import React, { useRef, useEffect, useState } from "react";
-import Clock from "./assets/svgs/clock";
 import { gsap } from "gsap";
-import { DrawSVGPlugin } from "../public/DrawSVGPlugin.min";
 import { format } from "date-fns";
 import { enUS } from "date-fns/locale";
-import AboutUs from "./components/about-us";
 import Image from "next/image";
+import { redirect } from "next/navigation";
+
+import Clock from "./assets/svgs/clock";
+import { DrawSVGPlugin } from "../public/DrawSVGPlugin.min";
+import AboutUs from "./components/about-us";
 
 import project1Image from "../public/images/project-1.png";
 import project2Image from "../public/images/project-2.png";
@@ -20,6 +23,7 @@ import project7Image from "../public/images/project-7.jpg";
 gsap.registerPlugin(DrawSVGPlugin);
 
 export default function Home() {
+  const router = useRouter();
   const headerref = useRef(null);
   const [project, setProject] = useState("project1");
   const [uiState, setUIState] = useState({
@@ -29,6 +33,7 @@ export default function Home() {
     imageUrl: project1Image.src,
     websiteName: "Carbon Circularity",
     websiteYear: "2023",
+    url: "/carbon-circularity",
   });
 
   function DateDisplay() {
@@ -145,7 +150,7 @@ export default function Home() {
       { drawSVG: "100% 100%", duration: 0.3, ease: "slow" },
       "-=0.3"
     );
-    tl.timeScale(2);
+    tl.timeScale(3);
 
     const pinsContainer = clockElement.querySelector("#pins-container");
     const pins = pinsContainer.querySelectorAll(".project-pin");
@@ -208,6 +213,7 @@ export default function Home() {
         imageUrl: project1Image.src,
         websiteName: "Carbon Circularity",
         websiteYear: "2023",
+        url: "/carbon-circularity",
       });
     } else if (project === "project2") {
       setUIState({
@@ -217,6 +223,7 @@ export default function Home() {
         imageUrl: project2Image.src,
         websiteName: "Bioluminescent City",
         websiteYear: "2022",
+        url: "/biolumiinscent",
       });
     } else if (project === "project3") {
       setUIState({
@@ -226,6 +233,7 @@ export default function Home() {
         imageUrl: project3Image.src,
         websiteName: "Lobius Lamp",
         websiteYear: "2021",
+        url: "/lobius-lamp",
       });
     } else if (project === "project4") {
       setUIState({
@@ -235,6 +243,7 @@ export default function Home() {
         imageUrl: project4Image.src,
         websiteName: "Innoca",
         websiteYear: "2020",
+        url: "/innoca",
       });
     } else if (project === "project5") {
       setUIState({
@@ -244,6 +253,7 @@ export default function Home() {
         imageUrl: project6Image.src,
         websiteName: "3d printed carabiner",
         websiteYear: "2018",
+        url: "/printed-3d-carabiner",
       });
     } else if (project === "project6") {
       setUIState({
@@ -253,6 +263,7 @@ export default function Home() {
         imageUrl: project5Image.src,
         websiteName: "Dutch Design Week x In-zee",
         websiteYear: "2019",
+        url: "/dutch-design-week",
       });
     } else if (project === "project7") {
       setUIState({
@@ -262,6 +273,7 @@ export default function Home() {
         imageUrl: project7Image.src,
         websiteName: "Sail Of Time",
         websiteYear: "2017",
+        url: "/sail-of-time",
       });
     } else {
       // handle other projects or default state here
@@ -272,6 +284,7 @@ export default function Home() {
         imageUrl: project1Image.src,
         websiteName: "Carbon Circularity",
         websiteYear: "2023",
+        url: "/carbon-circularity",
       });
     }
 
@@ -334,7 +347,7 @@ export default function Home() {
         </a>
       </nav>
       <AboutUs textColor={uiState?.textColor} />
-      <div className="aspect-[5/3] w-[90vw] lg:w-[55vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden">
+      <div className="aspect-[5/3] w-[90vw] lg:w-[100vw] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] overflow-hidden">
         <div
           id="img-parent"
           className="w-full h-full bg-cover bg-center rounded-md"
@@ -345,6 +358,10 @@ export default function Home() {
           }}
         />
       </div>
+      <div
+        className="fixed top-0 left-0 w-full h-full z-40"
+        onClick={() => router.push(uiState?.url)}
+      />
 
       <div className="flex w-full h-full">
         <Clock
