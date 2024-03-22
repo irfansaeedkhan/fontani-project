@@ -218,7 +218,7 @@ export default function Home() {
     } else if (project === "project2") {
       setUIState({
         bgColor: "#ef9b80",
-        textColor: "#735959",
+        textColor: "#ffffff",
         text: "Updated Text for Project 1",
         imageUrl: project2Image.src,
         websiteName: "Bioluminescent City",
@@ -238,7 +238,7 @@ export default function Home() {
     } else if (project === "project4") {
       setUIState({
         bgColor: "#ffffff",
-        textColor: "#ababab",
+        textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project4Image.src,
         websiteName: "Innoca",
@@ -248,7 +248,7 @@ export default function Home() {
     } else if (project === "project5") {
       setUIState({
         bgColor: "#e9e8ed",
-        textColor: "#58531b",
+        textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project6Image.src,
         websiteName: "3d printed carabiner",
@@ -258,7 +258,7 @@ export default function Home() {
     } else if (project === "project6") {
       setUIState({
         bgColor: "#f8f7f7",
-        textColor: "#3c3b38",
+        textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project5Image.src,
         websiteName: "Dutch Design Week x In-zee",
@@ -268,7 +268,7 @@ export default function Home() {
     } else if (project === "project7") {
       setUIState({
         bgColor: "#bbbbbb",
-        textColor: "#5c5c5c",
+        textColor: "#392a25",
         text: "Updated Text for Project 1",
         imageUrl: project7Image.src,
         websiteName: "Sail Of Time",
