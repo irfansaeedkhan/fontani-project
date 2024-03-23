@@ -72,10 +72,10 @@ const DutchDesignWeek = () => {
         <div className="flex flex-col lg:flex-row min-h-[80vh] lg:min-h-screen lg:pt-20">
           <div className="w-full lg:w-1/2 flex justify-center flex-col  items-center gap-6 lg:gap-16">
             <Image
-              src="/images/p4-img-2.png"
+              src="/images/p4-img-2.jpg"
               width={500}
               height={500}
-              alt="Burj Al Arab"
+              alt="spike light pattern"
               className="w-full max-w-[80%] h-full object-contain"
             />
             <p className="text-p lg:max-w-[80%] lg:pb-20 w-full p-6">
@@ -89,7 +89,7 @@ const DutchDesignWeek = () => {
           </div>
           <div className="lg:w-1/2 flex justify-center flex-col  items-center gap-16">
             <Image
-              src="/images/p4-img-3.png"
+              src="/images/p4-img-3.jpg"
               width={500}
               height={500}
               alt="image"

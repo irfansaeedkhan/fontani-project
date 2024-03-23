@@ -97,7 +97,7 @@ const CarbonCircularity = () => {
           <div className="container mx-auto flex flex-col lg:flex-row lg:min-h-screen text-white">
             <div className="w-full flex justify-center flex-col  items-center">
               <Image
-                src="/images/p6-img-3.png"
+                src="/images/p6-img-3.jpg"
                 width={500}
                 height={500}
                 alt="image"

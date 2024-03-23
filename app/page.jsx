@@ -16,7 +16,7 @@ import project1Image from "../public/images/p-1.png";
 import project2Image from "../public/images/p-2.png";
 import project3Image from "../public/images/p-3.png";
 import project4Image from "../public/images/p-4.png";
-import project5Image from "../public/images/p-5.png";
+import project5Image from "../public/images/p-5.jpg";
 import project6Image from "../public/images/p-6.png";
 import project7Image from "../public/images/p-7.png";
 
