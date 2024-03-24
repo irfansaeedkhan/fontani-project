@@ -1,10 +1,14 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Head from "next/head";
 
 const DutchDesignWeek = () => {
   return (
     <div className="bg-white w-full min-h-screen text-[#020202] relative">
+      <Head>
+        <title>Dutch Design Week x In-zee</title>
+      </Head>
       <div className="absolute top-0 left-5 lg:top-2 lg:right-20 crossBtn p-5">
         <Link
           href="/"
