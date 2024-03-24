@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useRef } from "react";
 
-const VideoPLayer = ({ videoSrc, muted = true, loop = true }) => {
+const VideoPLayer = ({ videoSrc, muted = false, loop = true }) => {
   const videoRef = useRef(null);
 
   const [isPlaying, setIsPlaying] = useState(false);
