@@ -19,6 +19,7 @@ import project4Image from "../public/images/p-4.png";
 import project5Image from "../public/images/p-5.jpg";
 import project6Image from "../public/images/p-6.png";
 import project7Image from "../public/images/p-7.png";
+import Head from "next/head";
 
 gsap.registerPlugin(DrawSVGPlugin);
 
@@ -335,6 +336,9 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-center relative overflow-hidden`}
       style={{ backgroundColor: uiState.bgColor }}
     >
+      <Head>
+        <title>Alexandre Fontani</title>
+      </Head>
       <nav className="absolute top-0 right-0 w-full z-40 px-4 py-4 lg:py-6">
         <a href="/" rel="noopener noreferrer" className="block w-28 lg:w-36">
           <Image
